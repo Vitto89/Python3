@@ -12,3 +12,9 @@ def welcome_full(imie, wiek)
         print('Dzien dobry', imie)
     else:
         print('Czesc', imie)
+def stan_zdrowia(waga, wzrost):
+    BMI = waga / (wzrost**2)
+    return BMI >35:
+elif BMI >28:
+    return 2
+return 3
